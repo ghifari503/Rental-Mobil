@@ -1,0 +1,9 @@
+composer update/install
+buat file .env dan copy file .env.example
+php artisan migrate
+php artisan key:generate
+php artisan db:seed --class=UserSeeder
+php artisan serve
+
+Laravel V.8.75
+template sb Admin 2
